@@ -74,7 +74,7 @@ header{
 	top: 1rem;
 }
 
-#logo:hover, .social_buttons:hover{
+#logo:hover, .social_buttons:hover, .article_pic:hover{
 	-ms-transform: rotate(-5deg);
 	-webkit-transform: rotate(-5deg);
 	transform: rotate(-5deg);
