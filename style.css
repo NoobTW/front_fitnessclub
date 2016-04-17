@@ -152,6 +152,7 @@ nav li:hover{
 	margin-bottom: 1rem;
 	background: #fff;
 	padding: 1rem;
+	color: #111;
 }
 
 .intro{
@@ -169,15 +170,16 @@ nav li:hover{
 }
 
 aside h2{
-	line-height: 2.5rem;
+	font-size: 1.8rem;
+	line-height: 3rem;
 }
 .aside_main{
-	width: 70%;
+	width: 65%;
 	float: left;
 }
 
 .aside_sidebar{
-	width: 30%;
+	width: 35%;
 	float: right;
 }
 
@@ -210,7 +212,7 @@ aside h2{
 
 .article_content{
 	padding: 1rem;
-	width: calc(100% - 250px);
+	width: calc(100% - 220px);
 	float: right;
 	line-height: 1.2rem;
 	letter-spacing: 1px;
@@ -223,7 +225,7 @@ aside h2{
 }
 
 .blue{
-	color: #01A5CA;
+	color: #01A5CA !important;
 }
 
 .clear{
