@@ -23,6 +23,8 @@ img{
 	margin: 0;
 	padding: 0;
 	letter-spacing: 0;
+	height: 5px;
+	line-height: 0;
 }
 
 .bar{
@@ -90,7 +92,27 @@ nav li{
 	display: inline-block;
 	color: #555;
 	transition: .5s linear all;
-	width: 5rem;
+	padding: 0 .8rem;
+}
+
+@media screen and (max-width: 767px) {
+	nav{
+		position: static;
+		text-align: center;
+	}
+
+	nav li{
+		display: block;
+		float: none;
+		padding: .3rem 0;
+		
+	}
+	
+	nav li a{
+		display: block;
+		font-size: 1.2rem;
+		border-bottom: 1px dotted #ccc;
+	}
 }
 
 nav li:hover{
@@ -111,6 +133,13 @@ nav li:hover{
 	width: calc( 30% - 3rem);
 	float: right;
 	padding: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+	.slider_pic, .slider_desc{
+		width: 100%;
+		float: none;
+	}
 }
 
 .slider_title{
@@ -187,8 +216,24 @@ aside h2{
 	list-style-image: url('./images/dot_blue.gif');
 	line-height: 1.4rem;
 	padding-left: 1rem;
-	
 }
+
+@media screen and (max-width: 767px) {
+	.aside_main, .aside_sidebar{
+		width: 100%;
+		float: none;
+	}
+	
+	.aside_sidebar ul{
+		line-height: 1.6rem;
+	}
+	
+	.aside_sidebar ul li a{
+		width: 100%;
+		display: block;
+	}
+}
+
 
 #btn_search{
 	background: #aaa;
@@ -222,6 +267,13 @@ aside h2{
 .article_content strong{
 	line-height: 1.4rem;
 	letter-spacing: 0;
+}
+
+@media screen and (max-width: 320px) {
+	.article_pic, .article_content{
+		width: 100%;
+		float: none;
+	}
 }
 
 .blue{

@@ -1,3 +1,4 @@
-# front_hw_midterm
+# Fitness Club
+## This is just a homework.
 
-View it here: http://noobtw.github.io/front_hw_midterm
+View it here: <https://noobtw.github.io/front_fitnessclub>
